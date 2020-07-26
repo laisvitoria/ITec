@@ -1,5 +1,7 @@
 import React from 'react'
 import { StyleSheet, Image, Text, View } from 'react-native';
+import Input from '../Input'
+import Botao from '../Button'
 import icon from '../../assets/ion_logo-react.png'
 
 export default function Login(){
@@ -13,6 +15,9 @@ export default function Login(){
                 <Text style={styles.text}>LOGIN</Text>
                 <View style={styles.line}/>
             </View>
+            <Input placeholder="E-mail"/>
+            <Input placeholder="Senha"/>
+            <Botao title="Entrar"/>
         </View>
     )
 }
@@ -34,7 +39,8 @@ const styles = StyleSheet.create({
     login:{
         flexDirection: 'row',
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        marginBottom: 10
     },
     line:{
         width: '20%',
