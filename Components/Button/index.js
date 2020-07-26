@@ -19,7 +19,6 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         alignSelf:'center',
         width: '70%',
-        height: 67,
         borderRadius: 50,
         elevation: 5,
         shadowColor: '#000',

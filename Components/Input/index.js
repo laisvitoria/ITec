@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         justifyContent:'center',
         alignSelf:'center',
         width: '70%',
-        height: 67,
+        height: 50,
         borderRadius: 10,
         elevation: 5,
         shadowColor: '#000',
